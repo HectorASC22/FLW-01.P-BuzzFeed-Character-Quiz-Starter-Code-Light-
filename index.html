@@ -11,6 +11,9 @@
 
 <body>
 
+
+
+  
   <div class="header">
     <div>
       <img class="logo" src="images/pngfind.com-buzzfeed-logo-png-74199.png">
@@ -24,30 +27,83 @@
 
   <div class="cover">
     <!-- task 1: update the header for your quiz -->
-    <h1> Which [ ] Character Are You? </h1>
+    <h1> What pasta are you? </h1>
 
     <!-- task 2: update the cover photo for your quiz -->
-    <img class="coverPhoto" src="https://media.sproutsocial.com/uploads/2018/04/Facebook-Cover-Photo-Size.png">
+    <img class="coverPhoto"
+      src="https://th.bing.com/th/id/R.5c63101a1497f50cb17361e3a4f0d995?rik=mb%2fh8FHvlF1UOQ&riu=http%3a%2f%2fwww.trbimg.com%2fimg-59ce3875%2fturbine%2fsfl-never-ending-pasta-at-olive-garden-20170929&ehk=SLZU6Ep0v5mDV1cAHG5IEfNhHWJLzapNJvtIczQTmZo%3d&risl=&pid=ImgRaw&r=0">
   </div>
 
   <!-- task 3: Update the questions for your quiz. Be sure to have AT LEAST three to ask the user. Add more questions if you want!-->
-   <div class="questions">
-    <h3> 1. [Question 1] </h3>
-    <input class="q1">
+  <div class="questions">
+    <h3> 1. What is your favorite Utensil? </h3>
+    
+    <div class="firstSet">
+    <input type="radio" name="firstQuestion" id="fqfa" value="Fork">Frok<br>
+    <input type="radio" name="firstQuestion" id="fqsa" value="Spoon">Spoon<br>
+    <input type="radio" name="firstQuestion" id="fqta" value="Knife">Knife<br>
+    <input type="radio" name="firstQuestion" id="fqla" value="Spork">Spork<br>
+    </div>
+
+
+    
+    <h3> 2. Are you right or left handed? </h3>
+    <div class="secondSet">
+    <input type="radio" name="secondQuestion" id="sqfa" value="Left">Left<br>
+    <input type="radio" name="secondQuestion" id="sqla" value="Right">Right<br>
     </br>
-    <h3> 2. [Question 2] </h3>
-    <input class="q2">
-    </br>
-    <h3> 3. [Question 3] </h3>
-    <input class="q3">
+</div>
+
+
+    
+    <h3> 3. Favorite soda? </h3>
+      <div class="thirdSet">
+    <input type="radio" name="thirdQuestion" id="tqfa" value="blah1">Coke<br>
+    <input type="radio" name="thirdQuestion" id="tqsa" value="blah2">Sprite<br>
+    <input type="radio" name="thirdQuestion" id="tqta" value="blah3">Dr. Pepper<br>
+    <input type="radio" name="thirdQuestion" id="tqla" value="blah4">Sprite Cranberry<br>
+  </div>
+  
+  
   </div>
   </br>
+
+
+
+
+
+
+  
 
   <div class="displayResult">
     <button class="submit"> Submit!</button>
   </div>
   </br>
-  <script src="script.js"></script>
+
+
+<div id="resultOne">
+<h1>You are... PASTA NACHOS!</h1>
+<img src="https://th.bing.com/th/id/R.c89faa9c3c15e26471136a74dadbed0d?rik=qad8cLrMI8V9Nw&riu=http%3a%2f%2fakns-images.eonline.com%2feol_images%2fEntire_Site%2f201811%2frs_1024x759-180201174208-1024.olive-garden-pasta-nachos.ct.020118.jpg%3ffit%3dinside%7c900%3aauto%26output-quality%3d100&ehk=AWYXpb4zwDwJ9BkOBCAiCchg6QRh6urkhylLFNFjqnI%3d&risl=&pid=ImgRaw&r=0" alt="image of pasta on nachos"> 
+</div>
+
+
+<div id="resultTwo">
+<h1>You are... KRAFT's Mac & Cheese!!</h1>
+<img src="https://th.bing.com/th/id/R.f6b772b91891349876be45d7c94d3f82?rik=4kHhCuxBCpWgLA&pid=ImgRaw&r=0" alt="image of kraft mac and cheese"> 
+</div>
+  
+
+
+
+
+<div id="resultThree">
+<h1>You are... Wet noodles...</h1>
+<img src="https://www.mashed.com/img/uploads/2016/12/collander.jpg" alt="image of noodles in strainer"> 
+</div>  
+  
+
+    <script src="script.js"></script>
+
 </body>
 
 </html>
